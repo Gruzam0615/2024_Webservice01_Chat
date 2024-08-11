@@ -1,0 +1,21 @@
+{
+  "name": "chatserver_express_prisma",
+  "version": "1.0.0",
+  "description": "express prisma example",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "npm run test"
+  },
+  "author": "gruzam0615",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  }
+}
